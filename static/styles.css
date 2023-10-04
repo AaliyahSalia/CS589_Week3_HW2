@@ -1,0 +1,115 @@
+/* Set the background color for the entire page */
+body {
+    background-color: #fdffc0; /* Lighter background */
+    color: #120c0c; /* Dark text color for better readability */
+    font-family: Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* Style the form and result div */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 15px;
+    background-color: #FFFFFF; /* White background for container */
+    border-radius: 8px; /* Rounded edges */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+.result-container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the result sections (comment and email) */
+.result-section {
+    display: flex;
+    background-color: #ff2121; /* Darker yellow for sections */
+    border: 1px solid #ff2121; /* Darker yellow border */
+    margin-bottom: 20px;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.left-section {
+    background-color: #ff9626; /* Darker orange for left section */
+}
+
+.right-section {
+    background-color: #ff9626; /* orange color for right section */
+}
+
+.result-section h2 {
+    margin: 10px 0;
+}
+
+.result-section p {
+    margin: 10px 0;
+}
+
+/* Style the language selection dropdown */
+.language-select {
+    font-size: 15px; /* Adjust the font size as needed */
+    width: 100%; /* Adjust the width as needed */
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff9626; /* Darker Yellow for dropdown */
+    border: none; /* Remove border */
+    color: white; /* Text color */
+    font-weight: bolder;
+}
+
+/* Style the title */
+h1 {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    color: #ff8214; /* Yellow color for title */
+}
+
+/* Style the submit button */
+.submit-button {
+    background-color: #ff8214; /* Darker blue for button */
+    color: white; /* Text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 15px; /* Adjust font size as needed */
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Style the submit button on hover */
+.submit-button:hover {
+    background-color: #ecff7e; /* Lighter blue on hover */
+}
+
+/* Style the translation button */
+.translate-button {
+    background-color: #fffb82; /* Darker blue for button */
+    color: white; /* Text color */
+    border: none; /* Remove button border */
+    padding: 5px 10px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/* Style the translation button on hover */
+.translate-button:hover {
+    background-color: #f5f4af; /* Lighter blue on hover */
+}
+
